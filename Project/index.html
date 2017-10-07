@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Vlad Borisov</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <!-- Own css file -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- FontAwesome Icons -->
+    <script src="https://use.fontawesome.com/adb2c8f0f4.js"></script>
+    
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a href="#" class="navbar-brand">
+                    <i class="fa fa-hashtag"></i>deadlime182
+                </a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right">
+                    <button class="btn btn-success" data-toggle="modal" data-target="#SignInModal">
+                        <i class="fa fa-sign-in"></i>
+                    </button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="SignInModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h1 class="modal-title">
+                        Registration
+                    </h1>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input type="email" class="form-control" placeholder="Email">
+                        <label for="password"></label>
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <button class="btn btn-success">
+                        Sign Up
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+    <div id="headerwrap">
+        <div class="container">
+            <div class="row centered">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Information block -->
+    <div class="jumbotron">
+        <div class="container inform">
+            <div class="row centered">
+                <div class="col-md-4">
+                    <i class="fa fa-bank"></i>
+                    <h4>Dolor sit</h4>
+                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-automobile"></i>
+                    <h4>Ut enim</h4>
+                    <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-camera"></i>
+                    <h4>Et harum quidem</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et </p>
+                </div>
+            </div>
+            <br><br>
+            <div class="row centered">
+                <div class="col-md-4">
+                    <i class="fa fa-diamond"></i>
+                    <h4>Dolor sit</h4>
+                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-gift"></i>
+                    <h4>Ut enim</h4>
+                    <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-legal"></i>
+                    <h4>Et harum quidem</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel -->
+    <div class="container centered">
+        <div class="carousel slide" id="myCarousel" data-interval="3000" data-ride="carousel" data-pause="hover">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="active item">
+                    <h2>Et harum quidem</h2>
+                    <div class="carousel-caption">
+                        <h3>Et harum quidem</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h2>Et harum quidem</h2>
+                    <div class="carousel-caption">
+                        <h3>Et harum quidem</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h2>Et harum quidem</h2>
+                    <div class="carousel-caption">
+                        <h3>Et harum quidem</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#myCarousel" class="carousel-control left" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#myCarousel" class="carousel-control right" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+    <!-- Table -->
+    <div class="container tab table-responsive">
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr class="active">
+                    <th>Имя</th>
+                    <th>Фамилия</th>
+                    <th>Почта</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="success">
+                    <td>Иван</td>
+                    <td>Николайчук</td>
+                    <td>ivan@example.com</td>
+                </tr>
+                <tr class="warning">
+                    <td>Мария</td>
+                    <td>Иванова</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr class="danger">
+                    <td>Юлия</td>
+                    <td>Петренко</td>
+                    <td>julia@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Partners -->
+    <div class="container-fluid centered" id="partners">
+        <div class="row">
+            <h1>Our partners</h1>
+            <div class="col-md-2 col-md-offset-3">
+                <img src="img/c3.png">
+            </div>
+            <div class="col-md-2">
+                <img src="img/c2.png">
+            </div>
+            <div class="col-md-2">
+                <img src="img/c1.png">
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="centered">
+                <h3>Join us</h3>
+                <a href="#">
+                    <i class="fa fa-telegram titl"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter titl"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram titl"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
